@@ -1,163 +1,206 @@
 <!DOCTYPE html>
-<html lang="ru" class="scroll-smooth">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Уголовный Кодекс | Главы 6–9</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      font-family: 'Inter', sans-serif;
-      color: #e0e7ff;
-    }
-    /* Красивая подсветка строк */
-    tbody tr:nth-child(odd) {
-      background-color: rgba(255, 255, 255, 0.05);
-    }
-    tbody tr:hover {
-      background-color: rgba(147, 197, 253, 0.2);
-      transition: background-color 0.3s ease;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Уголовный Кодекс Маджестика — Статьи 6-10</title>
+<style>
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 20px;
+  }
+  header {
+    background: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d32f2f;
+    border-bottom: 2px solid #d32f2f;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    color: #d32f2f;
+    border-bottom: 1px solid #d32f2f;
+    padding-bottom: 6px;
+  }
+  article {
+    background: #222222;
+    border-left: 5px solid #d32f2f;
+    padding: 15px 20px;
+    margin: 12px 0;
+    border-radius: 6px;
+  }
+  article p {
+    margin: 8px 0;
+    line-height: 1.5;
+  }
+  .priority {
+    font-weight: 600;
+    color: #ff6f61;
+  }
+  .punishment {
+    font-style: italic;
+    color: #ffa726;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #333;
+  }
+</style>
 </head>
-<body class="min-h-screen flex flex-col items-center p-6">
+<body>
+<header>Уголовный Кодекс Маджестика — Статьи 6-10</header>
 
-  <header class="max-w-7xl w-full mb-12 text-center">
-    <h1 class="text-4xl font-extrabold tracking-tight mb-3 text-indigo-400 drop-shadow-lg">Уголовный Кодекс</h1>
-    <p class="text-indigo-200 text-lg">Разделы 6–9: Преступления и наказания</p>
-  </header>
+<section>
+  <h2>Глава 6. Преступления против жизни и здоровья</h2>
 
-  <main class="max-w-7xl w-full space-y-20">
+  <article>
+    <h3>6.1 (R) Умышленное или неоднократное нанесение телесных повреждений.</h3>
+    <p class="priority">Приоритет розыска: 2</p>
+    <p class="punishment">Наказание: 20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</p>
+  </article>
 
-    <!-- Раздел -->
-    <section>
-      <h2 class="text-3xl font-semibold text-indigo-300 mb-6 border-b-2 border-indigo-500 pb-2">Раздел 6: Преступления против жизни и здоровья</h2>
-      <div class="overflow-x-auto rounded-lg shadow-lg">
-        <table class="min-w-full table-auto text-sm md:text-base">
-          <thead class="bg-indigo-900/80 text-indigo-200 uppercase tracking-wide text-left">
-            <tr>
-              <th class="px-6 py-3">Статья</th>
-              <th class="px-6 py-3">Описание</th>
-              <th class="px-6 py-3 w-20">Приоритет</th>
-              <th class="px-6 py-3 w-48">Наказание</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td class="px-6 py-4 font-medium">6.1 (R)</td><td class="px-6 py-4">Умышленное или неоднократное нанесение телесных повреждений</td><td class="px-6 py-4 text-yellow-400 font-semibold">2</td><td class="px-6 py-4">20 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.1.1 (R)</td><td class="px-6 py-4">То же, с использованием посторонних предметов</td><td class="px-6 py-4 text-orange-400 font-semibold">3</td><td class="px-6 py-4">30 месяцев лишения свободы + судимость</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.2 (R/F)</td><td class="px-6 py-4">Умышленное убийство</td><td class="px-6 py-4 text-red-400 font-semibold">4</td><td class="px-6 py-4">40 месяцев лишения свободы + судимость</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.3 (R/F)</td><td class="px-6 py-4">Тяжкое убийство (2+ жертв, должностные лица)</td><td class="px-6 py-4 text-red-600 font-semibold">5</td><td class="px-6 py-4">50 месяцев лишения свободы + судимость</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.4 (R/F)</td><td class="px-6 py-4">Групповое или особо жестокое убийство</td><td class="px-6 py-4 text-red-600 font-semibold">5</td><td class="px-6 py-4">50 месяцев лишения свободы + судимость</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.5 (R)</td><td class="px-6 py-4">Смерть по неосторожности</td><td class="px-6 py-4 text-red-400 font-semibold">4</td><td class="px-6 py-4">40 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.6 (R)</td><td class="px-6 py-4">Нарушение ПДД с последствиями</td><td class="px-6 py-4 text-orange-400 font-semibold">3</td><td class="px-6 py-4">30 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.7 (R/F)</td><td class="px-6 py-4">Угроза должностному лицу</td><td class="px-6 py-4 text-orange-400 font-semibold">3</td><td class="px-6 py-4">30 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.8 (R)</td><td class="px-6 py-4">Запугивание</td><td class="px-6 py-4 text-yellow-400 font-semibold">2</td><td class="px-6 py-4">20 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">6.9 (R)</td><td class="px-6 py-4">Насилие над животным <br><small class="text-indigo-400 italic">*Охота/рыбалка не нарушают статью</small></td><td class="px-6 py-4 text-yellow-400 font-semibold">2</td><td class="px-6 py-4">20 месяцев лишения свободы</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+  <article>
+    <h3>6.1.1 (R) Умышленное или неоднократное нанесение телесных повреждений c использованием посторонних предметов.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">Наказание: 30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</p>
+  </article>
 
-    <!-- Раздел 7 -->
-    <section>
-      <h2 class="text-3xl font-semibold text-indigo-300 mb-6 border-b-2 border-indigo-500 pb-2">Раздел 7: Преступления против свободы, чести и достоинства личности</h2>
-      <div class="overflow-x-auto rounded-lg shadow-lg">
-        <table class="min-w-full table-auto text-sm md:text-base">
-          <thead class="bg-indigo-900/80 text-indigo-200 uppercase tracking-wide text-left">
-            <tr>
-              <th class="px-6 py-3">Статья</th>
-              <th class="px-6 py-3">Описание</th>
-              <th class="px-6 py-3 w-20">Приоритет</th>
-              <th class="px-6 py-3 w-48">Наказание</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td class="px-6 py-4 font-medium">7.1 (F)</td><td class="px-6 py-4">Похищение человека</td><td class="px-6 py-4 text-red-600 font-semibold">5</td><td class="px-6 py-4">50 месяцев лишения свободы + судимость</td></tr>
-            <tr><td class="px-6 py-4 font-medium">7.2 (R)</td><td class="px-6 py-4">Клевета в СМИ, публичных выступлениях, с использованием должности</td><td class="px-6 py-4 text-yellow-400 font-semibold">2</td><td class="px-6 py-4">20 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">7.3 (R)</td><td class="px-6 py-4">Клевета с обвинением в преступлении</td><td class="px-6 py-4 text-orange-400 font-semibold">3</td><td class="px-6 py-4">30 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">7.4 (R)</td><td class="px-6 py-4">Оскорбление через СМИ, нарушение закона о журналистике</td><td class="px-6 py-4 text-yellow-400 font-semibold">2</td><td class="px-6 py-4">20 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">7.5 (R)</td><td class="px-6 py-4">Возбуждение ненависти/вражды</td><td class="px-6 py-4 text-orange-400 font-semibold">3</td><td class="px-6 py-4">30 месяцев лишения свободы</td></tr>
-            <tr><td class="px-6 py-4 font-medium">7.6 (R/F)</td><td class="px-6 py-4">То же, совершено представителем власти</td><td class="px-6 py-4 text-orange-400 font-semibold">3</td><td class="px-6 py-4">30 месяцев лишения свободы + судимость</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+  <article>
+    <h3>6.2 (R/F) Убийство, то есть умышленное причинение смерти другому человеку.</h3>
+    <p class="priority">Приоритет розыска: 4</p>
+    <p class="punishment">Наказание: 40 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</p>
+  </article>
 
-  <!-- Вставь это после текущего содержимого, например после раздела 9 -->
+  <article>
+    <h3>6.3 (R/F) Тяжкое убийство, убийство двух или более лиц и близких жертвы.</h3>
+    <p class="priority">Приоритет розыска: 5</p>
+    <p class="punishment">Наказание: 50 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с записью о судимости.</p>
+  </article>
 
-<h1 style="font-size: 2rem; margin: 40px 0 20px;">Раздел 8: Преступления против половой неприкосновенности и половой свободы личности</h1>
-<table>
-  <thead>
-    <tr>
-      <th>Статья</th>
-      <th>Описание</th>
-      <th>Приоритет</th>
-      <th>Наказание</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>8.1 (R)</td><td>Насильственные действия сексуального характера с применением насилия, угроз или при беспомощности жертвы.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>8.2 (R/F)</td><td>Те же действия, повлекшие по неосторожности тяжкий вред здоровью или смерть потерпевшего.</td><td style="color: orangered;">4</td><td>40 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>8.3 (R)</td><td>Принуждение к сексуальным действиям через шантаж, угрозы имуществу или использование зависимости.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>8.4 (R)</td><td>Сексуальное домогательство, включая дискриминационные действия с сексуальным подтекстом.</td><td style="color: orangered;">4</td><td>40 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-  </tbody>
-</table>
+  <article>
+    <h3>6.4 (R/F) Групповое убийство с особой жесткостью.</h3>
+    <p class="priority">Приоритет розыска: 5</p>
+    <p class="punishment">50 месяцев лишения свободы с записью о судимости.</p>
+  </article>
 
-<h1 style="font-size: 2rem; margin: 40px 0 20px;">Раздел 9: Преступления против конституционных прав и свобод человека и гражданина</h1>
-<table>
-  <thead>
-    <tr>
-      <th>Статья</th>
-      <th>Описание</th>
-      <th>Приоритет</th>
-      <th>Наказание</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>9.1 (F)</td><td>Незаконный сбор или распространение сведений о частной жизни без согласия, в том числе с использованием служебного положения.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.2 (F)</td><td>Незаконное проникновение в жилище или частную территорию против воли владельца.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.3 (J)</td><td>Воспрепятствование избирательным правам граждан (подкуп, обман, принуждение, насилие).</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.4 (F)</td><td>Принуждение журналиста к распространению или отказу от информации.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.5 (F)</td><td>Незаконное ограничение прав журналистов на получение и распространение информации.</td><td style="color: green;">1</td><td>10 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.6 (F)</td><td>Отказ в предоставлении медицинской помощи или услуг, повлекший вред здоровью.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.6.1 (F)</td><td>То же, что в 9.6, но с причинением тяжкого вреда или смерти по неосторожности.</td><td style="color: red;">5</td><td>50 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>9.6.2 (R/F)</td><td>Неоказание помощи лицу в опасности, несмотря на возможность её оказания.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.7 (F)</td><td>Отказ сотрудника правоохранительных органов от действий, повлекший вред интересам.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>9.7.1 (F)</td><td>То же, что в 9.7, но с причинением тяжкого вреда или смерти по неосторожности.</td><td style="color: red;">5</td><td>50 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-  </tbody>
-</table>
+  <article>
+    <h3>6.5 (R) Причинение тяжкого вреда здоровью или смерти по неосторожности.</h3>
+    <p class="priority">Приоритет розыска: 4</p>
+    <p class="punishment">40 месяцев лишения свободы.</p>
+  </article>
 
-<h1 style="font-size: 2rem; margin: 40px 0 20px;">Раздел 10: Преступления против собственности</h1>
-<table>
-  <thead>
-    <tr>
-      <th>Статья</th>
-      <th>Описание</th>
-      <th>Приоритет</th>
-      <th>Наказание</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>10.1 (R)</td><td>Кража имущества стоимостью свыше $2,000.</td><td style="color: green;">1</td><td>10 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>10.2 (R)</td><td>Кража имущества стоимостью свыше $8,000.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>10.3 (R)</td><td>Кража имущества стоимостью свыше $30,000.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>10.4 (R)</td><td>Мошенничество — хищение или завладение имуществом путем обмана или злоупотребления доверием.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>10.5 (R)</td><td>Грабеж — открытое хищение чужого имущества.</td><td style="color: gold;">2</td><td>20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>10.6 (R/F)</td><td>Разбой — нападение с целью хищения имущества с применением насилия или угроз.</td><td style="color: orangered;">4</td><td>40 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>10.7 (R/F)</td><td>Угон или управление угнанным транспортом.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>10.7.1 (R/F)</td><td>Угон государственного транспорта или иное его неправомерное использование.</td><td style="color: orangered;">4</td><td>40 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>10.8 (R)</td><td>Умышленное уничтожение или повреждение чужого имущества.</td><td style="color: gold;">2</td><td>До 20 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-    <tr><td>10.8.1 (R/F)</td><td>Умышленное уничтожение или повреждение государственного имущества.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>10.9 (R)</td><td>Уничтожение чужого имущества из хулиганских побуждений или опасным способом (поджог, взрыв и др.).</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас с созданием записи о судимости.</td></tr>
-    <tr><td>10.10 (R)</td><td>Вымогательство имущества или прав под угрозой насилия или уничтожения имущества.</td><td style="color: orange;">3</td><td>30 месяцев лишения свободы в федеральной тюрьме штата Сан-Андреас.</td></tr>
-  </tbody>
-</table>
+  <article>
+    <h3>6.6 (R) Нарушение правил вождения или эксплуатации транспорта, повлекшее вред здоровью или смерть.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы.</p>
+  </article>
 
-<h1 style="font-size: 2rem; margin: 40px 0 20px;">Раздел 11: Экономические преступления и нарушения</h1>
-<table>
-  <thead>
-    <tr>
-      <th>Статья</th>
-      <th>Описание</th>
-      <th>
+  <article>
+    <h3>6.7 (R/F) Угроза расправой должностному лицу или их близким.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>6.8 (R) Угрозы с целью запугать человека.</h3>
+    <p class="priority">Приоритет розыска: 2</p>
+    <p class="punishment">20 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>6.9 (R) Умышленное нанесение телесных повреждений животному.</h3>
+    <p class="priority">Приоритет розыска: 2</p>
+    <p class="punishment">20 месяцев лишения свободы.</p>
+    <p><em>Примечание:</em> Ловля рыбы и охота не является нарушением согласно “Закону охоте и рыбалке”.</p>
+  </article>
+</section>
+
+<section>
+  <h2>Глава 7. Преступления против чести и достоинства</h2>
+
+  <article>
+    <h3>7.1 (F) Похищение человека.</h3>
+    <p class="priority">Приоритет розыска: 5</p>
+    <p class="punishment">50 месяцев лишения свободы с записью о судимости.</p>
+  </article>
+
+  <article>
+    <h3>7.2 (R) Клевета в публичных выступлениях, СМИ или с использованием служебного положения.</h3>
+    <p class="priority">Приоритет розыска: 2</p>
+    <p class="punishment">20 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>7.3 (R) Клевета, сопровождающаяся обвинением в преступлении.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>7.4 (R) Нарушение прав личности и репутации, оскорбление со стороны СМИ.</h3>
+    <p class="priority">Приоритет розыска: 2</p>
+    <p class="punishment">20 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>7.5 (R) Возбуждение ненависти/вражды по социальным и личным признакам.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>7.6 (R/F) То же, что и 7.5, но совершено представителем власти.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы с записью о судимости.</p>
+  </article>
+</section>
+
+<section>
+  <h2>Глава 8. Преступления против половой неприкосновенности и свободы личности</h2>
+
+  <article>
+    <h3>8.1 (R) Насильственные действия сексуального характера с применением насилия, угроз или при беспомощности жертвы.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы с записью о судимости.</p>
+  </article>
+
+  <article>
+    <h3>8.2 (R/F) Те же действия, повлекшие тяжкий вред здоровью или смерть потерпевшего по неосторожности.</h3>
+    <p class="priority">Приоритет розыска: 4</p>
+    <p class="punishment">40 месяцев лишения свободы с записью о судимости.</p>
+  </article>
+
+  <article>
+    <h3>8.3 (R) Принуждение к сексуальным действиям через шантаж, угрозы имуществу или использование зависимости.</h3>
+    <p class="priority">Приоритет розыска: 3</p>
+    <p class="punishment">30 месяцев лишения свободы с записью о судимости.</p>
+  </article>
+
+  <article>
+    <h3>8.4 (R) Сексуальное домогательство, включая дискриминационные действия с сексуальным подтекстом.</h3>
+    <p class="priority">Приоритет розыска: 4</p>
+    <p class="punishment">40 месяцев лишения свободы с записью о судимости.</p>
+  </article>
+</section>
+
+<section>
+  <h2>Глава 9. Преступления против конституционных прав и свобод человека и гражданина</h2>
+
+  <article>
+    <h3>9.1 (F) Незаконный сбор или распространение сведений о частной жизни без согласия.</h3>
+    <p class="priority">Приоритет розыска: 2</p>
+    <p class="punishment">20 месяцев лишения свободы.</p>
+  </article>
+
+  <article>
+    <h3>9.2 (F) Незаконное проникновение в жилище или частную территорию против воли владельца.</h3>
+    <p class="priority">Приоритет роз
